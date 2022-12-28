@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+body {
+  font-size: 30px;
+  overflow-x: hidden;
+  background-color: rgb(89, 183, 181);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.d2 h2 {
+  margin-top: 1.4%;
+}
+.d3 h2 {
+  margin-top: 1.5%;
+}
+
+.d4 h2 {
+  margin-top: 1.5%;
+}
+
+.c1 a {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c2 a {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c3 a {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c4 a {
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c5 a {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c6 a {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c7 a {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}
+
+.c8 a {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 5px;
+}

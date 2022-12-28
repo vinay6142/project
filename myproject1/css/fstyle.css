@@ -1,0 +1,73 @@
+body {
+  background-color: aqua;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side*/
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered a {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+.centered1 a {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+.centered2 a {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}

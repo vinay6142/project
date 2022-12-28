@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+body {
+  background-color: aqua;
+}
+
+.centered a {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+.centered1 a {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+.centered2 a {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+
+.centered3 a {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+
+.centered4 a {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav {
+  background-color: orange;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-links {
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 5px;
+}
+a:hover {
+  background-color: black;
+  color: pink;
+}
