@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 30px;
+  overflow-x: hidden;
+  color: rgb(107, 142, 179);
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(163, 115, 60);
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  background-color: orange;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-links {
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 5px;
+}
+a:hover {
+  background-color: black;
+  color: pink;
+}

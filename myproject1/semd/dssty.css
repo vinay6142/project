@@ -1,0 +1,49 @@
+body {
+  background-color: #1690a7;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav {
+  background-color: orange;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-links {
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.nv1 a {
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 5px;
+}
+a:hover {
+  background-color: black;
+  color: pink;
+}

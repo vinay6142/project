@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tbl {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+.tdl th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
